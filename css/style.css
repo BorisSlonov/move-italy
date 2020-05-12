@@ -115,7 +115,8 @@ body {
 }
 
 .header {
-  height: 50vh;
+  height: 100%;
+  min-height: 45vh;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -232,10 +233,19 @@ body {
       align-self: center;
   padding-left: 0;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 .service__finder-list li {
-  margin-top: 1em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #098aed;
+}
+
+.service__finder-list li:not(:first-child) {
+  margin-top: 1.5em;
+}
+
+.border-b {
   border-bottom: 1px solid #098aed;
   padding-bottom: 1em;
 }
@@ -408,7 +418,7 @@ body {
   display: inline-block;
 }
 
-.choose-country {
+.choose-country__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,8 +439,22 @@ body {
   margin: 0 8px;
 }
 
+.choose-country__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .choose-country img {
   width: 100%;
+  max-width: 12em;
 }
 
 .choose-country span {
@@ -440,8 +464,9 @@ body {
 }
 
 .h2-title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   letter-spacing: .45px;
   line-height: 1.5;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
