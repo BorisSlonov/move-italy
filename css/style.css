@@ -18,7 +18,7 @@ ul {
 
 html,
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 @media (max-width: 1024px) {
   html,
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -118,6 +118,19 @@ body {
   height: 50vh;
   background-size: cover;
   background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  letter-spacing: .35px;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .usa {
@@ -129,7 +142,15 @@ body {
 }
 
 .italy {
-  background-image: url(../img/header-italy.jpg);
+  background-image: url(../img/header-italy.png);
+}
+
+.german {
+  background-image: url(../img/header-german.jpg);
+}
+
+.spain {
+  background-image: url(../img/header-spain.jpg);
 }
 
 .service-h1 {
@@ -298,8 +319,8 @@ body {
 }
 
 .service-grid__img img {
-  width: 100%;
-  max-width: 5em;
+  width: 100px;
+  height: 100px;
 }
 
 .img-times {

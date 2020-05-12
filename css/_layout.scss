@@ -1,6 +1,6 @@
 html,
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 
     html,
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -91,7 +91,13 @@ body {
     height: 50vh;
     background-size: cover;
     background-position: center center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: .35px;
+    font-size: 2rem;
+    text-align: center;
 
 }
 
@@ -105,7 +111,15 @@ body {
 }
 
 .italy {
-    background-image: url(../img/header-italy.jpg);
+    background-image: url(../img/header-italy.png);
+}
+
+.german {
+    background-image: url(../img/header-german.jpg);
+}
+
+.spain {
+    background-image: url(../img/header-spain.jpg);
 }
 
 //bg
