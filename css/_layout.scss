@@ -124,3 +124,24 @@ body {
 }
 
 //bg
+
+
+.animated.delay-0_1s {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+}
+
+.animated.delay-0_2s {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.animated.delay-0_3s {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.animated.delay-0_4s {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
